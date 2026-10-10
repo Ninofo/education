@@ -1,4 +1,4 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Education Project README.md 
 
 > This project addresses inequality of educational opportunity in U.S. highschools by comparing ACT scores of US schools impacted by varying socioeconomic factors.
 
