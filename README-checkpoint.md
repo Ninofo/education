@@ -1,6 +1,6 @@
 # Project Title (This is a template README.md file that you can adapt to your project)
 
-> A brief description of what the project does and its purpose.
+> This project addresses inequality of educational opportunity in U.S. highschools by comparing ACT scores of US schools impacted by varying socioeconomic factors.
 
 ---
 
@@ -8,9 +8,9 @@
 
 Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
 
-- **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
-- **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
+- **Objective:** To address inequality of educational opportunity in U.S. High schools 
+- **Domain:** Education
+- **Key Techniques:** Linear Regression
 
 ---
 
@@ -28,8 +28,12 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Data
 
-- **Source:** Link to the data source(s) 
-- **Description:** Brief overview of the dataset features, size, and format
+-  **Source:** https://www.edgap.org/#5/38.342/-95.295
+- **Description:** Average ACT scores for schools and socioeconomic characteristics of each school district from 2016. 747KB xlsx file
+- **License:** (if applicable)
+  
+-  **Source:** https://www.dropbox.com/s/lkl5nvcdmwyoban/ccd_sch_029_1617_w_1a_11212017.csv?dl=1
+- **Description:** Basic information on each school from the National Center for Eduation Statistics. 39,529 KB csv file
 - **License:** (if applicable)
 
 ---
@@ -48,7 +52,7 @@ Include a short discussion of the findings and what they imply.
 
 ## Authors
 
-- Your Name - [@yourhandle](https://github.com/yourhandle)
+- Your Name - https://github.com/Ninofo
 
 ---
 
