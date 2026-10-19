@@ -1,13 +1,13 @@
 # Education Project README.md 
 
-> This project addresses inequality of educational opportunity in U.S. highschools by investigating how various socioeconomic factors may impact ACT scores in US schools.
+> This project addresses inequality of educational opportunity in U.S. highschools by investigating various socioeconomic factors impact ACT scores in US schools.
 ---
 
 ## Project Overview
 
-To investigate the socioeconomic factors that may impact impact ACT scores in USA high schools, data was used from EDGap.org and school information from the National Center for Education Statistics. Several factors were found to be significant predictors of ACT scores with the best predictor being participation in a free/assisted lunch program.  
+To investigate the socioeconomic factors that may impact impact ACT scores in USA high schools, data was used from EDGap.org and school information from the National Center for Education Statistics. Several factors were found to be significant predictors of ACT scores with the strongest predictor being participation in a free/assisted lunch program.  
 
-- **Objective:** To address inequality of educational opportunity in U.S. High schools 
+- **Objective:** Determine which socioeconomic factors could predict ACT scores
 - **Domain:** Education
 - **Key Techniques:** Linear Regression
 
@@ -29,23 +29,23 @@ To investigate the socioeconomic factors that may impact impact ACT scores in US
 
 -  **Source:** https://www.edgap.org/#5/38.342/-95.295
 - **Description:** Average ACT scores for schools and socioeconomic characteristics of each school district from 2016. 747KB xlsx file. Data from the Census Bureau's American Community Survey and from each state's department of education. 
-- **License:** Memphis Teacher Residency 
+- **License:** Open Source
   
 -  **Source:** https://www.dropbox.com/s/lkl5nvcdmwyoban/ccd_sch_029_1617_w_1a_11212017.csv?dl=1
 - **Description:** Basic information on each school from the National Center for Eduation Statistics. 39,529 KB csv file, National Center for Education Statistics- (Common Core of Data: America's Public Schools)
-- **License:** The Institute of Education SCiences
+- **License:** Open Source
 
 ---
 
 ## Analysis
 
-A linear regression model was used to evaluate socioeconomic factors as predictors for ACT scores. The significant socioeconomic factors that indicated the best predictors ACT scores were, 
+A linear regression model was used to evaluate socioeconomic factors correlation with ACT scores. The significant socioeconomic factors that indicated the best predictors ACT scores were, rate_unemployment, percent_college, and percent_lunch.
 
 ---
 
 ## Results
 
-Include a short discussion of the findings and what they imply.
+The strongest predictor of ACT scores was participation in the reduced/free lunch program. The two other significant predictors were the unemployment rate and the percent of students who eventually went to college. One surprising result was that median house hold income was not a significant predictor for ACT scores. The amount of students who had married parents was also not a significant predictor of ACT scores. 
 
 ---
 
@@ -57,12 +57,13 @@ Include a short discussion of the findings and what they imply.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is Open Source.
 
 ---
 
 ## Acknowledgements
 
 - Tools/libraries used
-- Tutorials or papers referenced
+- Memphis Teacher Residency
+- The Institute of Education Sciences
 - Inspiration or collaborators
